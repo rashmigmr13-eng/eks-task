@@ -1,0 +1,10 @@
+@"
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.pem
+.env
+__pycache__/
+.vscode/
+"@ | Out-File -Encoding ascii .gitignore
